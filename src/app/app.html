@@ -18,7 +18,11 @@
     <section class="hero section-container" id="inicio">
       <div class="hero-copy">
         <div class="eyebrow"><span class="sparkle">✦</span> Portafolio digital</div>
-        <h1>Hola, soy <span class="highlight">Nicolle</span><br />y creo ideas que<br /><em>cobran vida.</em></h1>
+        <h1>
+          Hola, soy <span class="highlight">Nicolle</span><br />y creo ideas que<br /><em
+            >cobran vida.</em
+          >
+        </h1>
         <p class="hero-description">
           Estudiante de Ingeniería de Sistemas apasionada por crear experiencias digitales bonitas,
           funcionales y con un toque especial.
@@ -39,7 +43,8 @@
           <span>building<br /><strong>the future</strong></span>
         </div>
         <div class="code-card">
-          <span class="code-dot pink"></span><span class="code-dot yellow"></span><span class="code-dot green"></span>
+          <span class="code-dot pink"></span><span class="code-dot yellow"></span
+          ><span class="code-dot green"></span>
           <code>&lt;hello world /&gt;</code>
         </div>
         <div class="sticker">made with<br /><strong>♡ &amp; code</strong></div>
@@ -53,11 +58,19 @@
           <h2>Un poquito<br /><em>sobre mí</em></h2>
         </div>
         <div class="about-copy">
-          <p>¡Hola! Soy <strong>Nicolle Daniela Valverde Gallego</strong>, estudiante de Ingeniería de Sistemas.</p>
-          <p>Me encanta aprender, experimentar con nuevas tecnologías y convertir conceptos en productos digitales que conecten con las personas.</p>
+          <p>
+            ¡Hola! Soy <strong>Nicolle Daniela Valverde Gallego</strong>, estudiante de Ingeniería
+            de Sistemas.
+          </p>
+          <p>
+            Me encanta aprender, experimentar con nuevas tecnologías y convertir conceptos en
+            productos digitales que conecten con las personas.
+          </p>
           <div class="skills-list" aria-label="Tecnologías">
             @for (skill of skills; track skill.name) {
-              <span class="skill-pill"><span>{{ skill.icon }}</span> {{ skill.name }}</span>
+              <span class="skill-pill"
+                ><span>{{ skill.icon }}</span> {{ skill.name }}</span
+              >
             }
           </div>
         </div>
@@ -70,7 +83,9 @@
           <div class="section-label">02 <span></span> mi trabajo</div>
           <h2>Proyectos que<br /><em>me representan</em></h2>
         </div>
-        <p>Una pequeña colección de proyectos, ideas y aprendizajes construidos durante mi camino.</p>
+        <p>
+          Una pequeña colección de proyectos, ideas y aprendizajes construidos durante mi camino.
+        </p>
       </div>
 
       <div class="project-grid">
@@ -95,12 +110,16 @@
               </div>
               <div class="project-links">
                 @if (project.repository) {
-                  <a [href]="project.repository" target="_blank" rel="noopener">Repositorio <span>↗</span></a>
+                  <a [href]="project.repository" target="_blank" rel="noopener"
+                    >Repositorio <span>↗</span></a
+                  >
                 } @else {
                   <span class="coming-soon">Repositorio <span>próximamente</span></span>
                 }
                 @if (project.demo) {
-                  <a [href]="project.demo" target="_blank" rel="noopener">Ver demo <span>↗</span></a>
+                  <a [href]="project.demo" target="_blank" rel="noopener"
+                    >Ver demo <span>↗</span></a
+                  >
                 } @else {
                   <span class="coming-soon">Demo <span>próximamente</span></span>
                 }
@@ -117,7 +136,10 @@
         <div>
           <div class="section-label">03 <span></span> hablemos</div>
           <h2>¿Creamos algo<br /><em>bonito juntas?</em></h2>
-          <p>Este portafolio apenas comienza. Pronto podrás encontrar aquí todos mis enlaces y proyectos.</p>
+          <p>
+            Este portafolio apenas comienza. Pronto podrás encontrar aquí todos mis enlaces y
+            proyectos.
+          </p>
         </div>
         <a class="primary-button light-button" href="mailto:">Escríbeme <span>→</span></a>
       </div>

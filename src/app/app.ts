@@ -29,20 +29,9 @@ export class App {
   protected readonly projects: Project[] = [
     {
       id: 1,
-      name: 'Mi portafolio',
-      description: 'El espacio donde comparto mi recorrido, mis aprendizajes y los proyectos que voy creando.',
-      technologies: ['Angular', 'SCSS', 'GitHub Pages'],
-      emoji: '♡',
-      theme: 'visual-lilac',
-      status: 'En desarrollo',
-      featured: true,
-      repository: '',
-      demo: '',
-    },
-    {
-      id: 2,
-      name: 'Proyecto dos',
-      description: 'Una nueva idea tomando forma. Aquí podrás conocer todos sus detalles muy pronto.',
+      name: 'Proyecto uno',
+      description:
+        'Una nueva idea tomando forma. Aquí podrás conocer todos sus detalles muy pronto.',
       technologies: ['Angular', 'TypeScript'],
       emoji: '✦',
       theme: 'visual-peach',
@@ -51,8 +40,8 @@ export class App {
       demo: '',
     },
     {
-      id: 3,
-      name: 'Proyecto tres',
+      id: 2,
+      name: 'Proyecto dos',
       description: 'Diseñado para aprender, explorar y convertir retos en experiencias digitales.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       emoji: '☼',
@@ -62,9 +51,10 @@ export class App {
       demo: '',
     },
     {
-      id: 4,
-      name: 'Proyecto cuatro',
-      description: 'Un proyecto más para seguir creciendo y compartir en este pequeño universo digital.',
+      id: 3,
+      name: 'Proyecto tres',
+      description:
+        'Un proyecto más para seguir creciendo y compartir en este pequeño universo digital.',
       technologies: ['TypeScript', 'Angular'],
       emoji: '☁',
       theme: 'visual-blue',
@@ -73,8 +63,8 @@ export class App {
       demo: '',
     },
     {
-      id: 5,
-      name: 'Proyecto cinco',
+      id: 4,
+      name: 'Proyecto cuatro',
       description: 'El próximo capítulo de mi camino como desarrolladora está por escribirse.',
       technologies: ['Por definir'],
       emoji: '✿',
